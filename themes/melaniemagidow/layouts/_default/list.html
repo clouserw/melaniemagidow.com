@@ -1,0 +1,40 @@
+{{ define "main" }}
+<header class="archive-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}
+    <p class="archive-description">{{ . }}</p>
+    {{ end }}
+</header>
+
+<ul class="post-list">
+    {{ range .Paginator.Pages }}
+    <li class="post-list-item">
+        <h2 class="post-list-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h2>
+
+        <div class="post-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+
+            {{ with .Params.categories }}
+            <span class="post-categories">
+                in
+                {{ range $index, $category := . }}
+                    {{- if $index }}, {{ end -}}
+                    <a href="{{ "/categories/" | relURL }}{{ $category | urlize }}/">{{ $category }}</a>
+                {{- end }}
+            </span>
+            {{ end }}
+        </div>
+
+        {{ if .Summary }}
+        <div class="post-summary">
+            {{ .Summary }}
+        </div>
+        {{ end }}
+    </li>
+    {{ end }}
+</ul>
+
+{{ template "_internal/pagination.html" . }}
+{{ end }}

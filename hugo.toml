@@ -1,0 +1,34 @@
+baseURL = 'https://melaniemagidow.com/'
+languageCode = 'en-us'
+title = 'Melanie Magidow'
+theme = 'melaniemagidow'
+
+# Permalinks configuration to match WordPress URL structure
+[permalinks]
+  posts = '/:year/:month/:day/:slug/'
+
+# Taxonomy configuration
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+# Markup configuration - allow raw HTML in Markdown
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Additional settings
+paginate = 10
+enableRobotsTXT = true
+
+# Main menu (to be customized with theme)
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2

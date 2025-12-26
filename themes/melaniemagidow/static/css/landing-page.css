@@ -1,0 +1,131 @@
+/* Landing Page Styles */
+.landing-page {
+  margin-bottom: 3rem;
+}
+
+.landing-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.landing-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.landing-intro {
+  font-size: var(--font-size-large);
+  line-height: 1.6;
+}
+
+.landing-intro p {
+  margin-bottom: 1.2rem;
+}
+
+.landing-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.landing-host h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.profile-image {
+  text-align: center;
+  margin: 0 auto 1.5rem;
+}
+
+.profile-image img {
+  max-width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--color-accent-5);
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.social-links a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.social-links svg {
+  fill: currentColor;
+}
+
+/* Special Projects */
+.special-projects {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.special-projects h3 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.projects-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.projects-nav a {
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.projects-nav a:hover {
+  background-color: var(--color-accent-5);
+}
+
+/* Responsive adjustments for landing page */
+@media (max-width: 782px) {
+  .header-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .landing-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .landing-sidebar {
+    order: -1; /* Move sidebar above intro on mobile */
+  }
+
+  .profile-image img {
+    max-width: 200px;
+  }
+}
