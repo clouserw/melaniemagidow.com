@@ -6,19 +6,25 @@ draft: false
 
 This is a running list of the group reads happening at MENA on Goodreads. For current updates, visit the [MENA Lit Group](https://www.goodreads.com/group/show/413-middle-east-north-african-lit).
 
-## 2025 Reading Schedule
+## 2026 Reading Schedule
 
-The group has planned three reads:
+The group has planned four open reads:
 
-- Jan-Mar Granada by Radwa Ashour
-- May-Aug Open Read for Fiction
-- Sep-Dec Open Read for Nonfiction
+- Jan-Mar | Something for Your Challenge (something on your personal challenge). There is also a small group read of Murjana by Ghada Karmi.
+- Apr-Jun | Children's/Young Adult Literature
+- Jul-Sep | Fiction
+- Oct-Dec | Poetry
 
 ---
 
 For the following, the Group Discussion has ended but the conversation is always open to new contributions
 
+### 2025
 
+- Jan-Mar Granada by Radwa Ashour
+- May-Aug Open Read for Fiction
+- Sep-Dec Open Read for Nonfiction
+  
 ### 2024
 
 - Jan-Mar Open Read for Children’s/YA (my focus on author Naomi Shihab Nye)
