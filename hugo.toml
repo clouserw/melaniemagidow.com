@@ -22,6 +22,16 @@ theme = 'melaniemagidow'
 paginate = 10
 enableRobotsTXT = true
 
+# Output formats for search index
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[outputFormats.JSON]
+  mediaType = "application/json"
+  baseName = "search"
+  isPlainText = true
+  notAlternative = true
+
 # Main menu (to be customized with theme)
 [menu]
   [[menu.main]]

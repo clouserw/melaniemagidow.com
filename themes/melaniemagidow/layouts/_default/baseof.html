@@ -13,6 +13,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
     <link rel="stylesheet" href="{{ "/css/landing-page.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/search.css" | relURL }}">
 
     <!-- RSS Feed -->
     {{ with .OutputFormats.Get "rss" -}}
@@ -29,5 +30,10 @@
 
         {{ partial "footer.html" . }}
     </div>
+
+    <!-- Search functionality -->
+    <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" integrity="sha256-DFDZACuFeAqEKv/7Vnu1Tt5ALa58bcWZegGGFNgET8g=" crossorigin="anonymous"></script>
+    <script src="{{ "/js/search.js" | relURL }}"></script>
+    <script src="{{ "/js/search-ui.js" | relURL }}"></script>
 </body>
 </html>
