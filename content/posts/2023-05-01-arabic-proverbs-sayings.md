@@ -74,5 +74,3 @@ English: Those who want honey must deal with bee stings.
 For more Moroccan proverbs like this one, rendered in beautiful art, see *Proverbes populaires du Maroc: Paroles et calligraphies de femmes* (2009)
 
 <hr /></hr>
-
-If you want to provide more proverbs for the next round, contact me [here](https://www.melaniemagidow.com/contact/)!
