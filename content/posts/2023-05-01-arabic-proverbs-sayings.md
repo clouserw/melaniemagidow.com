@@ -10,6 +10,9 @@ categories:
 
 In this post, I’m adding some new Arabic proverbs/sayings to the ones I posted years ago [here](https://www.melaniemagidow.com/2016/09/26/quotes/). The post from 2016 is one of my most consistently popular posts, but it is high time we got some new ones! This round is more colloquial. The earlier post includes more quotations from literature. Enjoy!
 
+## اللي بيفرط لك رمان، لا تفرط فيه
+The one who peels pomegranates for you - don’t let them go. - from @ebrihwatubbeh on Insta
+
 <a href="/images/66c17-honey.alexander-mils-nes.jpg">![](/images/honey.alexander-mils-nes-150x150.jpg)</a><figcaption>Honey | [Source](https://unsplash.com/photos/nesUgwNX3u4)</figcaption>
 
 ## إن كان حبيبك عسل، ما تلحوش كلّه
